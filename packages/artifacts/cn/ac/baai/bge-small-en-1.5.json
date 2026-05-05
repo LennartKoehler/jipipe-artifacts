@@ -1,0 +1,25 @@
+{
+    "name": "bge-small-en",
+    "version": "1.5",
+    "query": "cn.ac.baai.bge_small_en:1.5-*",
+    "maintainer": {
+        "name": "Ruman Gerst",
+        "email": "ruman.gerst@leibniz-hki.de"
+    },
+    "description": "BGE Small EN Embedding Model",
+    "homepage": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "license": "https://github.com/FlagOpen/FlagEmbedding/blob/master/LICENSE",
+    "sources": [
+        {
+            "type": "oras",
+            "repo": "ghcr",
+            "rel": "artifacts/cn/ac/baai/bge_small_en",
+            "oci-ref": "ghcr.io/applied-systems-biology/jipipe/artifacts/cn/ac/baai/bge_small_en"
+        }
+    ],
+    "tags": [
+        "1.5-any_onnx"
+    ],
+    "includes": {
+    }
+}
