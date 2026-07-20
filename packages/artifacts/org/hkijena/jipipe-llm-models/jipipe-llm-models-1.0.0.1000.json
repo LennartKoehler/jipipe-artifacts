@@ -1,0 +1,25 @@
+{
+    "name": "jipipe-llm-models",
+    "version": "1.0.0.1000",
+    "query": "org.hkijena.jipipe-llm-models:1.0.0.1000-*",
+    "sources": [
+        {
+            "type": "oras",
+            "repo": "ghcr",
+            "rel": "artifacts/org/hkijena/jipipe-llm-models",
+            "oci-ref": "ghcr.io/applied-systems-biology/jipipe/artifacts/org/hkijena/jipipe-llm-models"
+        }
+    ],
+    "maintainer": {
+        "name": "Ruman Gerst",
+        "email": "ruman.gerst@leibniz-hki.de"
+    },
+    "description": "LLM models for JIPipe",
+    "homepage": "https://github.com/applied-systems-biology/jipipe",
+    "license": "Apache-2.0",
+    "tags": [
+        "1.0.0.1000-any"
+    ],
+    "includes": {
+    }
+}
