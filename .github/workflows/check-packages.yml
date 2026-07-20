@@ -1,0 +1,40 @@
+name: Check Package Configs
+
+on:
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install oras requests jsonschema
+
+      - name: Validate package JSON against schema
+        run: |
+          python3 scripts/validate_schemas.py \
+            --packages-dir packages \
+            --schema schemas/package.schema.json
+
+      - name: Build validated index (strict)
+        run: |
+          python3 scripts/build_index_validating.py \
+            --packages-dir packages \
+            --out dist/index.json \
+            --owner applied-systems-biology \
+            --repo jipipe \
+            --prefix artifacts \
+            --strict
+
+      - name: Validate package downloads
+        run: |
+          python3 scripts/validate_package_downloads.py --packages-dir packages
