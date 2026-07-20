@@ -1,0 +1,28 @@
+{
+    "name": "llamacpp",
+    "version": "0.10043.0.1000",
+    "query": "ai.ggml.llamacpp:0.10043.0.1000-*",
+    "maintainer": {
+        "name": "Ruman Gerst",
+        "email": "ruman.gerst@leibniz-hki.de"
+    },
+    "description": "LLM inference in C/C++ ",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
+    "sources": [
+        {
+            "type": "oras",
+            "repo": "ghcr",
+            "rel": "artifacts/ai/ggml/llamacpp",
+            "oci-ref": "ghcr.io/applied-systems-biology/jipipe/artifacts/ai/ggml/llamacpp"
+        }
+    ],
+    "tags": [
+        "0.10043.0.1000-linux_amd64",
+        "0.10043.0.1000-macos_arm64",
+        "0.10043.0.1000-windows_amd64"
+    ],
+    "includes": {
+        "pip": []
+    }
+}
