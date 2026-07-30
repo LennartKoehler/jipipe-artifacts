@@ -14,11 +14,12 @@
     "name": "Dhruv Khatri",
     "email": "dhruv.khatri@leibniz-hki.de"
   },
-  "description": "JIPipe image classifier package for Linux and Windows with CPU and GPU support (CUDA 12.9 / 13.2)",
+  "description": "JIPipe image classifier package for Linux and Windows with CPU and GPU support (CUDA 12.6 / 12.9 / 13.2)",
   "homepage": "https://github.com/applied-systems-biology/jipipe",
   "license": "LICENSE",
   "tags": [
     "1.1.0.1007-linux_amd64",
+    "1.1.0.1007-linux_gpu_cu126_amd64",
     "1.1.0.1007-linux_gpu_cu129_amd64",
     "1.1.0.1007-linux_gpu_cu132_amd64",
     "1.1.0.1007-windows_amd64",
