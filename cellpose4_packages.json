@@ -1,0 +1,102 @@
+{
+  "defaults": {
+    "artifact_type": "application/vnd.asb.bundle.v1",
+    "annotations": {
+      "org.opencontainers.image.vendor": "Leibniz-HKI / ASB"
+    },
+    "mode": "archive",
+    "archive_format": "tgz"
+  },
+  "artifacts": [
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-linux_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-linux_amd64.tar.gz",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-linux_gpu_cu126_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-linux_gpu_cu126_amd64.tar.gz",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-linux_gpu_cu128_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-linux_gpu_cu128_amd64.tar.gz",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-linux_gpu_cu130_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-linux_gpu_cu130_amd64.tar.gz",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-macos_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-macos_amd64.tar.gz",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-macos_arm64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-macos_arm64.tar.gz",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-windows_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-windows_amd64.zip",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-windows_gpu_cu126_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-windows_gpu_cu126_amd64.zip",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-windows_gpu_cu128_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-windows_gpu_cu128_amd64.zip",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    },
+    {
+      "coord": "com.github.mouseland.cellpose4:4.2.1.1.1000-windows_gpu_cu130_amd64",
+      "artifact_id": "cellpose4",
+      "source": "packages/cellpose4-4.2.1.1.1000-windows_gpu_cu130_amd64.zip",
+      "annotations": {
+        "org.opencontainers.image.title": "cellpose4",
+        "org.opencontainers.image.version": "4.2.1.1.1000"
+      }
+    }
+  ]
+}
