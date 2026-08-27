@@ -1,0 +1,28 @@
+{
+  "name": "dolphin",
+  "version": "0.0.3",
+  "query": "com.github.lennartkoehler.dolphin:0.0.3-*",
+  "sources": [
+    {
+      "type": "oras",
+      "repo": "ghcr",
+      "rel": "artifacts/com/github/lennartkoehler/dolphin",
+      "oci-ref": "ghcr.io/lennartkoehler/dolphin/artifacts/com/github/lennartkoehler/dolphin"
+    }
+  ],
+  "maintainer": {
+    "name": "Lennart Koehler",
+    "email": "lennart.koehler@leibniz-hki.de"
+  },
+  "description": "Command-line application for image deconvolution and point spread function generation",
+  "homepage": "https://github.com/LennartKoehler/dolphin",
+  "license": "MIT",
+  "tags": [
+    "0.0.3-linux_amd64",
+    "0.0.3-linux_amd64_gpu_cu130",
+    "0.0.3-macos_arm64",
+    "0.0.3-windows_amd64",
+    "0.0.3-windows_amd64_gpu_cu128"
+  ],
+  "includes": {}
+}
